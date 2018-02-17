@@ -1,0 +1,13 @@
+PRACTICUM (OJT) 1:
+	Project 2:
+		MySQL Databasse 
+		PHP webscript
+		
+		DATABASE QUESTION TYPES:
+			*Multiple Choice
+			*Single Selection
+			*Multiple choice using combo boxes
+
+		*Like a quizzer program but students can login in class to answer question
+		and input suggestion on the presentation
+		*Outline the report
