@@ -1,0 +1,60 @@
+/*body area*/
+body{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+/*navigation area*/   
+.container1{
+	width: 85%
+	margin: 0 auto;
+	text-align:center;
+	font-family: ;		/*insert font that you want*/
+}
+.fixed-header{
+	width: 100%;
+	position: fixed;
+	background: #B0C309;
+	padding: 10px 0;
+	color: #fff;
+}
+.fixed-header{
+    top: 0;
+}
+	nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 7px 25px;
+        display: inline-block;
+    }
+/*content area*/
+.fill-height-or-more {
+  display: flex;
+  flex-direction: column;
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: auto;
+}
+.fill-height-or-more > div {
+  /* these are the flex items */
+  flex: 1;
+  flex: 1;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+	
+/*footer area*/
+.fixed-footer{
+    width: 100%;
+    position: fixed;
+    background: #B0C309;
+    padding: 10px 0;
+    color: #fff;		/*insert font color that you like*/
+	text-align:center;
+	font-family: ;		/*insert the font that you want*/
+}
+
+.fixed-footer{
+        bottom: 0;
+}
