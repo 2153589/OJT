@@ -131,7 +131,7 @@ a, u {
 	font-size: 18px;
 	border-radius: 20px;
 }
-.modalwindow input[type="submit"]:hover{
+.modalWindow input[type="submit"]:hover{
 	cursor: pointer;
 	background: #191970 ;
 	color: #fff;
