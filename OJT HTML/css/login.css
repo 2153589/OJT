@@ -3,7 +3,7 @@ body{
     padding-top: 60px;
     padding-bottom: 40px;
 }
-/*navigation area*/   
+/*navigation area*/
 .container1{
 	width: 85%
 	margin: 0 auto;
@@ -13,7 +13,7 @@ body{
 .fixed-header{
 	width: 100%;
 	position: fixed;
-	background: #B0C309;
+	background: #E8E41E;
 	padding: 10px 0;
 	color: #fff;
 }
@@ -26,8 +26,11 @@ body{
         padding: 7px 25px;
         display: inline-block;
     }
-	
+
 /*****************************************************************************************8*/
+img{
+	background-image: ;
+}
 .login {
   background: #eceeee;
   border: 1px solid #42464b;
@@ -111,8 +114,8 @@ input[type="submit"] {
   margin: 29px 0 0 29px;
   position:relative;
   cursor:pointer;
-  border: none;  
-  background-color: #E1F719;
+  border: none;
+  background-color: #1B8ACA;
   background-image: linear-gradient(top,#3db0a6,#3111);
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -131,7 +134,7 @@ input[type="submit"]:active {
 .fixed-footer{
     width: 100%;
     position: fixed;
-    background: #B0C309;
+    background: #E8E41E;
     padding: 10px 0;
     color: #fff;		/*insert font color that you like*/
 	text-align:center;

@@ -3,7 +3,7 @@ body{
     padding-top: 60px;
     padding-bottom: 40px;
 }
-/*navigation area*/   
+/*navigation area*/
 .container1{
 	width: 85%
 	margin: 0 auto;
@@ -13,7 +13,7 @@ body{
 .fixed-header{
 	width: 100%;
 	position: fixed;
-	background: #B0C309;
+	background: #E8E41E;
 	padding: 10px 0;
 	color: #fff;
 }
@@ -43,12 +43,24 @@ flex-basis: auto;
   justify-content: center;
   flex-direction: column;
 }
-	
+
+.class{
+	width: 1050px;
+	height: 150px;
+	border: 2px solid black;
+}
+
+.pic{
+	width:75px;
+	height:75px;
+	border:1px solid black;
+}
+
 /*footer area*/
 .fixed-footer{
     width: 100%;
     position: fixed;
-    background: #B0C309;
+    background: #E8E41E;
     padding: 10px 0;
     color: #fff;		/*insert font color that you like*/
 	text-align:center;
