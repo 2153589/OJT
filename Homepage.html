@@ -268,9 +268,15 @@ li.dropdown {
 	padding: 3px
 }
 
-.calendar {
-  float: right;
 
+.calendar {
+  position: absolute;
+  right: 15px;
+  top: 75px;
+  border: 3px solid #333;
+  border-color: rgba(255, 255, 255, 0.85);
+  width: 280px;
+  height: 215px;
 }
 </style>
 
@@ -291,15 +297,16 @@ li.dropdown {
 			<a href="#">Quiz Results</a>
 			<a href="#">Logout</a>
 			</div>
-
-
-	<li class="b"><a>SABM-Quizzer</a></li>
-
-  </ul>
+  </li>
+	<li class="b">
+    <a>SABM-Quizzer</a>
+  </li>
+</ul>
 
 <div style="padding-left:16px">
   <h2>WELCOME to SLU SABM-Quizzer</h2>
 </div>
+
 
 <!--calendar-->
 
@@ -319,7 +326,7 @@ li.dropdown {
     <tr>
      <td>
       <select name="tbSelMonth" onchange='fUpdateCal(frmCalendar.tbSelYear.value, frmCalendar.tbSelMonth.value)'
-       style='FONT-FAMILY:Verdana;FONT-SIZE:12px;FONT-WEIGHT:normal' id="Select1" onblur="return Select1_onblur()">
+       style='FONT-FAMILY:Verdana;FONT-SIZE:12px;FONT-WEIGHT:normal;background-color:aaa' id="Select1" onblur="return Select1_onblur()">
        <option value="1">January</option>
        <option value="2">February</option>
        <option value="3" selected >March</option>
@@ -334,7 +341,7 @@ li.dropdown {
        <option value="12">December</option>
       </select>
       <select name="tbSelYear" onchange='fUpdateCal(frmCalendar.tbSelYear.value, frmCalendar.tbSelMonth.value)'
-       style='FONT-FAMILY:Verdana;FONT-SIZE:12px;FONT-WEIGHT:normal'>
+       style='FONT-FAMILY:Verdana;FONT-SIZE:12px;FONT-WEIGHT:normal;background-color:aaa'>
        <option value="2018" selected>2018</option>
        <option value="2019">2019</option>
        <option value="2020">2020</option>
